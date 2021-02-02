@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actorlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <section id="popop">
+        <div id="popop_artikel">
+            <div id="luk">X</div>
+
+            <div class="popop_kolonne">
+                <p>Name: <span class="fullname"></span></p>
+                <p>Movie: <span class="movie"></span></p>
+            </div>
+
+        </div>
+    </section>
+
+    <header>
+        <button class="filter valgt" data-movie="alle">Alle</button>
+        <button class="filter" data-movie="Pulp Fiction">Pulp Fiction</button>
+        <button class="filter" data-movie="Fight Club">Fight Club</button>
+        <button class="filter" data-movie="Goodfellas">Goodfellas</button>
+    </header>
+
+    <section id="liste">
+    </section>
+
+    <template>
+        <article class="menu">
+            <p class="fullname"></p>
+            <p class="movie"></p>
+        </article>
+    </template>
+
+    <script src="script.js"></script>
+
+</body></html>
