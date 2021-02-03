@@ -1,8 +1,3 @@
-
-//let container = document.querySelector("section");
-//let temp = document.querySelector("template");
-
-
 let filter = "alle";
 let retter;
 
