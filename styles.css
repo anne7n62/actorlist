@@ -3,6 +3,10 @@
   overflow-x: hidden;
 }
 
+body {
+  background-color: #c5c5c5;
+}
+
 p {
   font-size: 1em;
   line-height: 1em;
